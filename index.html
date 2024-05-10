@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-webp no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дом лучшей еды</title>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Check support .webp -->
+  <script>
+    !function (e, n, A) { function o(e, n) { return typeof e === n } function t() { var e, n, A, t, a, i, l; for (var f in r) if (r.hasOwnProperty(f)) { if (e = [], n = r[f], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n.options.aliases.length)) for (A = 0; A < n.options.aliases.length; A++)e.push(n.options.aliases[A].toLowerCase()); for (t = o(n.fn, "function") ? n.fn() : n.fn, a = 0; a < e.length; a++)i = e[a], l = i.split("."), 1 === l.length ? Modernizr[l[0]] = t : (!Modernizr[l[0]] || Modernizr[l[0]] instanceof Boolean || (Modernizr[l[0]] = new Boolean(Modernizr[l[0]])), Modernizr[l[0]][l[1]] = t), s.push((t ? "" : "no-") + l.join("-")) } } function a(e) { var n = u.className, A = Modernizr._config.classPrefix || ""; if (c && (n = n.baseVal), Modernizr._config.enableJSClass) { var o = new RegExp("(^|\\s)" + A + "no-js(\\s|$)"); n = n.replace(o, "$1" + A + "js$2") } Modernizr._config.enableClasses && (n += " " + A + e.join(" " + A), c ? u.className.baseVal = n : u.className = n) } function i(e, n) { if ("object" == typeof e) for (var A in e) f(e, A) && i(A, e[A]); else { e = e.toLowerCase(); var o = e.split("."), t = Modernizr[o[0]]; if (2 == o.length && (t = t[o[1]]), "undefined" != typeof t) return Modernizr; n = "function" == typeof n ? n() : n, 1 == o.length ? Modernizr[o[0]] = n : (!Modernizr[o[0]] || Modernizr[o[0]] instanceof Boolean || (Modernizr[o[0]] = new Boolean(Modernizr[o[0]])), Modernizr[o[0]][o[1]] = n), a([(n && 0 != n ? "" : "no-") + o.join("-")]), Modernizr._trigger(e, n) } return Modernizr } var s = [], r = [], l = { _version: "3.6.0", _config: { classPrefix: "", enableClasses: !0, enableJSClass: !0, usePrefixes: !0 }, _q: [], on: function (e, n) { var A = this; setTimeout(function () { n(A[e]) }, 0) }, addTest: function (e, n, A) { r.push({ name: e, fn: n, options: A }) }, addAsyncTest: function (e) { r.push({ name: null, fn: e }) } }, Modernizr = function () { }; Modernizr.prototype = l, Modernizr = new Modernizr; var f, u = n.documentElement, c = "svg" === u.nodeName.toLowerCase(); !function () { var e = {}.hasOwnProperty; f = o(e, "undefined") || o(e.call, "undefined") ? function (e, n) { return n in e && o(e.constructor.prototype[n], "undefined") } : function (n, A) { return e.call(n, A) } }(), l._l = {}, l.on = function (e, n) { this._l[e] || (this._l[e] = []), this._l[e].push(n), Modernizr.hasOwnProperty(e) && setTimeout(function () { Modernizr._trigger(e, Modernizr[e]) }, 0) }, l._trigger = function (e, n) { if (this._l[e]) { var A = this._l[e]; setTimeout(function () { var e, o; for (e = 0; e < A.length; e++)(o = A[e])(n) }, 0), delete this._l[e] } }, Modernizr._q.push(function () { l.addTest = i }), Modernizr.addAsyncTest(function () { function e(e, n, A) { function o(n) { var o = n && "load" === n.type ? 1 == t.width : !1, a = "webp" === e; i(e, a && o ? new Boolean(o) : o), A && A(n) } var t = new Image; t.onerror = o, t.onload = o, t.src = n } var n = [{ uri: "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=", name: "webp" }, { uri: "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==", name: "webp.alpha" }, { uri: "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA", name: "webp.animation" }, { uri: "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=", name: "webp.lossless" }], A = n.shift(); e(A.name, A.uri, function (A) { if (A && "load" === A.type) for (var o = 0; o < n.length; o++)e(n[o].name, n[o].uri) }) }), t(), a(s), delete l.addTest, delete l.addAsyncTest; for (var p = 0; p < Modernizr._q.length; p++)Modernizr._q[p](); e.Modernizr = Modernizr }(window, document);
+  </script>
+
+  <link rel="stylesheet" href="assets/css/style.min.css">
+
+</head>
+
+<body>
+
+  <main class="main">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="header__logo">
+          <img src="assets/img/logo.svg" alt="логотип" class="logo__image">
+        </a>
+
+        <a class="header__submenu-open" href="#">
+          <span></span>
+        </a>
+
+        <div class="header__overlay"></div>
+
+        <div class="header__collapse">
+          <a class="header__submenu-close" href="#"></a>
+
+          <nav class="nav header__nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link anchor" href="#">Главная</a>
+              </li>
+              <li class="nav__item"><a class="nav__link anchor" href="#menu">Меню</a>
+              </li>
+              <li class="nav__item"><a class="nav__link anchor" href="#cooks">О нас</a>
+              </li>
+              <li class="nav__item"><a class="nav__link anchor" href="#reservation">Бронь</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__cart-wrap">
+            <a class="header__cart" href="#">
+              <svg>
+                <use xlink:href="assets/img/sprite/sprite.svg#cart"></use>
+              </svg>
+            </a>
+          </div>
+
+          <div class="header__phone-block">
+            <a href="tel:+9998887654" class="header__phone-link">
+              <svg>
+                <use xlink:href="assets/img/sprite/sprite.svg#phone"></use>
+              </svg>
+
+              +999-888-76-54
+            </a>
+            <p class="header__phone-text">Свяжитесь с нами для
+              <br>бронирования</p>
+          </div>
+
+          <a href="#" class="header__reservation-btn button">Заказ столика</a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Hero Block -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="hero__first-offer first-offer">
+          <h1 class="first-offer__title">
+
+				<span class="first-offer__welcome">Добро пожаловать</span>
+
+				<span class="first-offer__restaurant">В наш ресторан</span>
+
+				<span class="first-offer__name">Дом лучшей еды</span>
+
+			</h1>
+
+          <a class="first-offer__show-menu-btn button anchor" href="#menu">Меню</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Block -->
+
+    <!-- Advantages Block -->
+    <section id="advantages" class="advantages">
+      <div class="container">
+        <ul class="advantages__list">
+          <li class="advantages__item advantage-card">
+            <svg class="advantage-card__icon">
+              <use xlink:href="assets/img/sprite/sprite.svg#dish"></use>
+            </svg>
+            <h3 class="title advantage-card__title">
+
+					Магическая <span class="title__accent">Атмосфера</span>
+
+				</h3>
+            <p class="advantage-card__description">
+              В нашем заведении царит магическая атмосфера наполненная вкусными ароматами
+            </p>
+          </li>
+          <li class="advantages__item advantage-card">
+            <svg class="advantage-card__icon">
+              <use xlink:href="assets/img/sprite/sprite.svg#dish"></use>
+            </svg>
+            <h3 class="title advantage-card__title">
+
+					Лучшее качество <span class="title__accent">Еды</span>
+
+				</h3>
+            <p class="advantage-card__description">
+              Качество нашей Еды - отменное!
+            </p>
+          </li>
+          <li class="advantages__item advantage-card">
+            <svg class="advantage-card__icon">
+              <use xlink:href="assets/img/sprite/sprite.svg#dish"></use>
+            </svg>
+            <h3 class="title advantage-card__title">
+
+					Недорогая <span class="title__accent">Еда</span>
+
+				</h3>
+            <p class="advantage-card__description">
+              Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Advantages Block -->
+
+    <!-- History Block -->
+    <section id="history" class="history">
+      <div class="container">
+        <div class="history__content">
+          <h2 class="history__title title">Наша <span class="title__accent">История</span></h2>
+
+          <p class="history__text">
+            Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации
+            и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.
+          </p>
+
+          <ul class="history__stats stats">
+            <li class="stats__item">
+              <p class="stats__value">93</p>
+              <p class="stats__type">Напитки</p>
+            </li>
+            <li class="stats__item">
+              <p class="stats__value">206</p>
+              <p class="stats__type">Еда</p>
+            </li>
+            <li class="stats__item">
+              <p class="stats__value">71</p>
+              <p class="stats__type">Закуски</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End History Block -->
+
+    <!-- Offer Block -->
+    <section id="offer" class="offer">
+      <div class="container">
+        <div class="offer__content-block">
+          <h2 class="offer__title title">
+
+				Отпразднуйте в одном из
+
+				самых лучших ресторанов.
+
+			</h2>
+
+          <p class="offer__subtitle">
+            Только в этом месяце бизнес-ланч от 250 ₽
+          </p>
+        </div>
+
+        <div class="offer__content-block">
+          <a href="#" class="offer__reservation-btn button">Заказ столика</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Offer Block -->
+
+    <!-- Dishes Block -->
+    <section id="dishes" class="dishes">
+      <div class="container">
+        <h2 class="dishes__title title">Наши <span class="title__accent">Блюда</span></h2>
+
+        <div class="dishes__content">
+          <picture class="dishes__cover">
+            <source type="image/webp" srcset="assets/img/dishes/cover.webp 1x, assets/img/dishes/cover@2x.webp 2x, assets/img/dishes/cover@3x.webp 3x">
+              <img src="assets/img/dishes/cover.jpg" srcset="assets/img/dishes/cover@2x.jpg 2x, assets/img/dishes/cover@3x.jpg 3x" alt="пицца">
+          </picture>
+          <ul class="dishes__list">
+            <li class="dishes__item dish">
+              <picture class="dish__image">
+                <source type="image/webp" srcset="assets/img/dishes/dish.webp 1x, assets/img/dishes/dish@2x.webp 2x, assets/img/dishes/dish@3x.webp 3x">
+                  <img src="assets/img/dishes/dish.jpg" srcset="assets/img/dishes/dish@2x.jpg 2x, assets/img/dishes/dish@3x.jpg 3x" alt="гамбургер">
+              </picture>
+
+              <p class="dish__info">
+                <span class="dish__name">Гамбургер мини</span>
+                <span class="dish__price">220 ₽</span>
+              </p>
+            </li>
+            <li class="dishes__item dish">
+              <picture class="dish__image">
+                <source type="image/webp" srcset="assets/img/dishes/dish.webp 1x, assets/img/dishes/dish@2x.webp 2x, assets/img/dishes/dish@3x.webp 3x">
+                  <img src="assets/img/dishes/dish.jpg" srcset="assets/img/dishes/dish@2x.jpg 2x, assets/img/dishes/dish@3x.jpg 3x" alt="гамбургер">
+              </picture>
+
+              <p class="dish__info">
+                <span class="dish__name">Гамбургер мини</span>
+                <span class="dish__price">220 ₽</span>
+              </p>
+            </li>
+            <li class="dishes__item dish">
+              <picture class="dish__image">
+                <source type="image/webp" srcset="assets/img/dishes/dish.webp 1x, assets/img/dishes/dish@2x.webp 2x, assets/img/dishes/dish@3x.webp 3x">
+                  <img src="assets/img/dishes/dish.jpg" srcset="assets/img/dishes/dish@2x.jpg 2x, assets/img/dishes/dish@3x.jpg 3x" alt="гамбургер">
+              </picture>
+
+              <p class="dish__info">
+                <span class="dish__name">Гамбургер мини</span>
+                <span class="dish__price">220 ₽</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End Dishes Block -->
+
+    <!-- Menu Block -->
+    <section id="menu" class="menu">
+      <div class="container">
+        <h2 class="menu__title title title--white title--shadow">Наше меню</h2>
+
+        <div class="menu__slider slider">
+          <div class="slider__wrapper">
+            <ul class="slider__list">
+              <li class="slider__item">
+                <div class="slider__card food-card">
+                  <div class="food-card__recomended">Recomended</div>
+
+                  <div class="food-card__image-wrap">
+                    <picture class="food-card__image">
+                      <source type="image/webp" srcset="assets/img/menu/image.webp 1x, assets/img/menu/image@2x.webp 2x, assets/img/menu/image@3x.webp 3x">
+                        <img src="assets/img/menu/image.jpg" srcset="assets/img/menu/image@2x.jpg 2x, assets/img/menu/image@3x.jpg 3x" alt="гамбургер">
+                    </picture>
+                    <p class="food-card__price">420</p>
+                  </div>
+
+                  <h3 class="food-card__title">Гамбургер макси</h3>
+
+                  <p class="food-card__description">Максимально толстый слой мяса</p>
+
+                  <a href="#" class="food-card__order-btn button">Заказать</a>
+                </div>
+              </li>
+              <li class="slider__item">
+                <div class="slider__card food-card">
+                  <div class="food-card__image-wrap">
+                    <picture class="food-card__image">
+                      <source type="image/webp" srcset="assets/img/menu/image.webp 1x, assets/img/menu/image@2x.webp 2x, assets/img/menu/image@3x.webp 3x">
+                        <img src="assets/img/menu/image.jpg" srcset="assets/img/menu/image@2x.jpg 2x, assets/img/menu/image@3x.jpg 3x" alt="гамбургер">
+                    </picture>
+                    <p class="food-card__price">420</p>
+                  </div>
+
+                  <h3 class="food-card__title">Гамбургер макси</h3>
+
+                  <p class="food-card__description">Максимально толстый слой мяса</p>
+
+                  <a href="#" class="food-card__order-btn button">Заказать</a>
+                </div>
+              </li>
+              <li class="slider__item">
+                <div class="slider__card food-card">
+                  <div class="food-card__image-wrap">
+                    <picture class="food-card__image">
+                      <source type="image/webp" srcset="assets/img/menu/image.webp 1x, assets/img/menu/image@2x.webp 2x, assets/img/menu/image@3x.webp 3x">
+                        <img src="assets/img/menu/image.jpg" srcset="assets/img/menu/image@2x.jpg 2x, assets/img/menu/image@3x.jpg 3x" alt="гамбургер">
+                    </picture>
+                    <p class="food-card__price">420</p>
+                  </div>
+
+                  <h3 class="food-card__title">Гамбургер макси</h3>
+
+                  <p class="food-card__description">Максимально толстый слой мяса</p>
+
+                  <a href="#" class="food-card__order-btn button">Заказать</a>
+                </div>
+              </li>
+              <li class="slider__item">
+                <div class="slider__card food-card">
+                  <div class="food-card__image-wrap">
+                    <picture class="food-card__image">
+                      <source type="image/webp" srcset="assets/img/menu/image.webp 1x, assets/img/menu/image@2x.webp 2x, assets/img/menu/image@3x.webp 3x">
+                        <img src="assets/img/menu/image.jpg" srcset="assets/img/menu/image@2x.jpg 2x, assets/img/menu/image@3x.jpg 3x" alt="гамбургер">
+                    </picture>
+                    <p class="food-card__price">420</p>
+                  </div>
+
+                  <h3 class="food-card__title">Гамбургер макси</h3>
+
+                  <p class="food-card__description">Максимально толстый слой мяса</p>
+
+                  <a href="#" class="food-card__order-btn button">Заказать</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="slider__arrows-wrap">
+            <button class="slider__arrow slider__arrow--prev"></button>
+            <button class="slider__arrow slider__arrow--next"></button>
+          </div>
+
+          <div class="menu__pagination slider__pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Menu Block -->
+
+    <!-- Reviews Block -->
+    <section id="reviews" class="reviews" aria-label="Отзывы">
+      <div class="container">
+        <div class="reviews__slider slider">
+          <div class="slider__wrapper">
+            <ul class="slider__list">
+              <li class="slider__item review">
+                <p class="review__text">
+                  Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                </p>
+
+                <picture class="review__image">
+                  <source type="image/webp" srcset="assets/img/reviews/image.webp 1x, assets/img/reviews/image@2x.webp 2x, assets/img/reviews/image@3x.webp 3x">
+                    <img src="assets/img/reviews/image.jpg" srcset="assets/img/reviews/image@2x.jpg 2x, assets/img/reviews/image@3x.jpg 3x" alt="фотография автора отзыва">
+                </picture>
+
+                <p class="review__type">Посетитель</p>
+                <p class="review__author">Николай</p>
+              </li>
+              <li class="slider__item review">
+                <p class="review__text">
+                  Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                </p>
+
+                <picture class="review__image">
+                  <source type="image/webp" srcset="assets/img/reviews/image.webp 1x, assets/img/reviews/image@2x.webp 2x, assets/img/reviews/image@3x.webp 3x">
+                    <img src="assets/img/reviews/image.jpg" srcset="assets/img/reviews/image@2x.jpg 2x, assets/img/reviews/image@3x.jpg 3x" alt="фотография автора отзыва">
+                </picture>
+
+                <p class="review__type">Посетитель</p>
+                <p class="review__author">Николай</p>
+              </li>
+              <li class="slider__item review">
+                <p class="review__text">
+                  Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                </p>
+
+                <picture class="review__image">
+                  <source type="image/webp" srcset="assets/img/reviews/image.webp 1x, assets/img/reviews/image@2x.webp 2x, assets/img/reviews/image@3x.webp 3x">
+                    <img src="assets/img/reviews/image.jpg" srcset="assets/img/reviews/image@2x.jpg 2x, assets/img/reviews/image@3x.jpg 3x" alt="фотография автора отзыва">
+                </picture>
+
+                <p class="review__type">Посетитель</p>
+                <p class="review__author">Николай</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="reviews__pagination slider__pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Reviews Block -->
+
+    <!-- Food Gallery Block -->
+    <section id="food-gallery" class="food-gallery">
+      <div class="container">
+        <h2 class="food-gallery__title title">Галерея <span class="title__accent">Блюд</span></h2>
+
+        <ul class="food-gallery__list">
+          <li class="food-gallery__item">
+            <picture class="food-gallery__image">
+              <source type="image/webp" srcset="assets/img/food-gallery/image-1.webp 1x, assets/img/food-gallery/image-1@2x.webp 2x, assets/img/food-gallery/image-1@3x.webp 3x">
+                <img src="assets/img/food-gallery/image-1.jpg" srcset="assets/img/food-gallery/image-1@2x.jpg 2x, assets/img/food-gallery/image-1@3x.jpg 3x" alt="фотография блюда">
+            </picture>
+          </li>
+          <li class="food-gallery__item">
+            <picture class="food-gallery__image">
+              <source type="image/webp" srcset="assets/img/food-gallery/image-2.webp 1x, assets/img/food-gallery/image-2@2x.webp 2x, assets/img/food-gallery/image-2@3x.webp 3x">
+                <img src="assets/img/food-gallery/image-2.jpg" srcset="assets/img/food-gallery/image-2@2x.jpg 2x, assets/img/food-gallery/image-2@3x.jpg 3x" alt="фотография блюда">
+            </picture>
+          </li>
+          <li class="food-gallery__item">
+            <picture class="food-gallery__image">
+              <source type="image/webp" srcset="assets/img/food-gallery/image-3.webp 1x, assets/img/food-gallery/image-3@2x.webp 2x, assets/img/food-gallery/image-3@3x.webp 3x">
+                <img src="assets/img/food-gallery/image-3.jpg" srcset="assets/img/food-gallery/image-3@2x.jpg 2x, assets/img/food-gallery/image-3@3x.jpg 3x" alt="фотография блюда">
+            </picture>
+          </li>
+          <li class="food-gallery__item">
+            <picture class="food-gallery__image">
+              <source type="image/webp" srcset="assets/img/food-gallery/image-2.webp 1x, assets/img/food-gallery/image-2@2x.webp 2x, assets/img/food-gallery/image-2@3x.webp 3x">
+                <img src="assets/img/food-gallery/image-2.jpg" srcset="assets/img/food-gallery/image-2@2x.jpg 2x, assets/img/food-gallery/image-2@3x.jpg 3x" alt="фотография блюда">
+            </picture>
+          </li>
+          <li class="food-gallery__item">
+            <picture class="food-gallery__image">
+              <source type="image/webp" srcset="assets/img/food-gallery/image-1.webp 1x, assets/img/food-gallery/image-1@2x.webp 2x, assets/img/food-gallery/image-1@3x.webp 3x">
+                <img src="assets/img/food-gallery/image-1.jpg" srcset="assets/img/food-gallery/image-1@2x.jpg 2x, assets/img/food-gallery/image-1@3x.jpg 3x" alt="фотография блюда">
+            </picture>
+          </li>
+          <li class="food-gallery__item">
+            <picture class="food-gallery__image">
+              <source type="image/webp" srcset="assets/img/food-gallery/image-3.webp 1x, assets/img/food-gallery/image-3@2x.webp 2x, assets/img/food-gallery/image-3@3x.webp 3x">
+                <img src="assets/img/food-gallery/image-3.jpg" srcset="assets/img/food-gallery/image-3@2x.jpg 2x, assets/img/food-gallery/image-3@3x.jpg 3x" alt="фотография блюда">
+            </picture>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Food Gallery Block -->
+
+    <!-- Cooks Block -->
+    <section id="cooks" class="cooks">
+      <div class="container">
+        <h2 class="cooks__title title">Наши <span class="title__accent">Повара</span></h2>
+
+        <div class="cooks__slider slider">
+          <div class="slider__wrapper">
+            <ul class="slider__list">
+              <li class="slider__item cook-card">
+                <picture class="cook-card__image">
+                  <source type="image/webp" srcset="assets/img/cooks/image-1.webp 1x, assets/img/cooks/image-1@2x.webp 2x, assets/img/cooks/image-1@3x.webp 3x">
+                    <img src="assets/img/cooks/image-1.jpg" srcset="assets/img/cooks/image-1@2x.jpg 2x, assets/img/cooks/image-1@3x.jpg 3x" alt="фотография повара">
+                </picture>
+              </li>
+              <li class="slider__item cook-card">
+                <picture class="cook-card__image">
+                  <source type="image/webp" srcset="assets/img/cooks/image-2.webp 1x, assets/img/cooks/image-2@2x.webp 2x, assets/img/cooks/image-2@3x.webp 3x">
+                    <img src="assets/img/cooks/image-2.jpg" srcset="assets/img/cooks/image-2@2x.jpg 2x, assets/img/cooks/image-2@3x.jpg 3x" alt="фотография повара">
+                </picture>
+              </li>
+              <li class="slider__item cook-card">
+                <picture class="cook-card__image">
+                  <source type="image/webp" srcset="assets/img/cooks/image-3.webp 1x, assets/img/cooks/image-3@2x.webp 2x, assets/img/cooks/image-3@3x.webp 3x">
+                    <img src="assets/img/cooks/image-3.jpg" srcset="assets/img/cooks/image-3@2x.jpg 2x, assets/img/cooks/image-3@3x.jpg 3x" alt="фотография повара">
+                </picture>
+              </li>
+              <li class="slider__item cook-card">
+                <picture class="cook-card__image">
+                  <source type="image/webp" srcset="assets/img/cooks/image-1.webp 1x, assets/img/cooks/image-1@2x.webp 2x, assets/img/cooks/image-1@3x.webp 3x">
+                    <img src="assets/img/cooks/image-1.jpg" srcset="assets/img/cooks/image-1@2x.jpg 2x, assets/img/cooks/image-1@3x.jpg 3x" alt="фотография повара">
+                </picture>
+              </li>
+            </ul>
+          </div>
+
+          <div class="cooks__pagination slider__pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cooks Block -->
+
+    <!--  Block -->
+    <section id="reservation" class="reservation" aria-label="Заказ столика">
+      <div class="container"></div>
+    </section>
+    <!-- End  Block -->
+
+  </main>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
